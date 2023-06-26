@@ -2,8 +2,10 @@
 name = "gumbel-top-bucket"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+keywords = ["gumbel", "rand", "bucket", "distribution", "top"]
+description = "A bucket data structure that is sampled using the Gambel-Top trick, which allows for O(1) sampling from a softmax-like distribution."
+repository = "https://github.com/cassanof/gumbel-bucket-rs"
 
 [dependencies]
 rand = "0.8.5"
